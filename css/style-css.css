@@ -1,0 +1,379 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    font-family: "Poppins", sans-serif!important;
+
+}
+:root {
+    --color-Pink: hsl(322, 100%, 66%);
+    --Light-Pink: hsl(321, 100%, 78%);
+    --Light-Red: hsl(0, 100%, 63%);
+    --Very-Dark-Cyan: hsl(192, 100%, 9%);
+    --Very-Pale-Blue: hsl(207, 100%, 98%);
+}
+a {
+    text-decoration: none!important;
+}
+main {
+    margin-bottom: 50px;
+}
+main img {
+    width: 170px;
+}
+@media (max-width: 767px) {
+    main img {
+        width: 130px;
+    }
+}
+main span {
+    padding: 5px 20px;
+    border: 1px solid var(--color-Pink);
+    color: var(--color-Pink);
+    border-radius: 30px;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif!important;
+}
+@media (max-width: 767px) {
+    main span {
+        font-size: 14px;
+    }
+}
+.section h1 {
+    color: var(--Very-Dark-Cyan);
+    font-weight: bold;
+}
+@media (max-width: 767px) {
+    .section h1 {
+        font-size: 28px;
+    }
+}
+.section p {
+    color: var(--Very-Dark-Cyan);
+    font-family: "Open Sans", sans-serif!important;
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto 30px;
+    font-weight: 400;
+}
+@media (max-width: 767px) {
+    .section p {
+        max-width: 300px;
+        font-size: 13px;
+    }
+}
+.section .get-started {
+    padding: 17px 0;
+    max-width: 300px;
+    width: 100%;
+    background-color: var(--color-Pink);
+    color: #fff;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif!important;
+    font-weight: 600;
+    text-align: center;
+    margin: auto;
+}
+@media (max-width: 767px) {
+    .section .get-started {
+        width: 300px;
+    }
+}
+/* start community */
+@media (max-width: 767px) {
+    .community .container {
+        flex-direction: column;
+    }
+}
+@media (max-width: 767px) {
+    .community .form {
+        margin-bottom: 5rem;
+    }
+}
+.community .form img ,
+.community .message img {
+    width: 35px;
+}
+
+.community .form span:first-of-type ,
+.community .message span:first-of-type {
+    font-size: 70px;
+    margin-bottom: -2px;
+}
+.community .form span:last-of-type ,
+.community .message .sent {
+    font-size: 17px;
+    color: #aaa;
+    font-family: "Open Sans", sans-serif!important;
+    font-weight: 400;
+}
+/* end community */
+/* start grow */
+.svg {
+    width: 100%;
+    height: 200px;
+    background-image: url("../images/bg-section-top-desktop-1.svg");
+    background-repeat: no-repeat;
+}
+@media (max-width: 767px) {
+    .svg {
+        width: 100%;
+        height: 135px;
+        background-image: url("../images/bg-section-top-mobile-1.svg");
+    }
+}
+.grow {
+    background-color: var(--Very-Pale-Blue);
+    margin-top: -3%;
+}
+@media (max-width: 767px) {
+    .grow {
+        margin-top: -7%;
+    } 
+}
+@media (max-width: 767px) {
+    .grow .container {
+        flex-direction: column-reverse;
+    }
+}
+.grow .txt-grow h2 {
+    color: var(--Very-Dark-Cyan);
+}
+.grow .txt-grow p {
+    max-width: 470px;
+    width: 100%;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif!important;
+    color: var(--Very-Dark-Cyan);
+}
+.grow img {
+    width: 500px;
+}
+@media (max-width: 767px) {
+    .grow img {
+        width: 250px;
+        margin-bottom: 50px;
+    }
+}
+.svg-bottom {
+    width: 100%;
+    height: 200px;
+    background-image: url("../images/bg-section-bottom-desktop-1.svg");
+    background-repeat: no-repeat;
+}
+@media (max-width: 767px) {
+    .svg-bottom {
+        background-image: url("../images/bg-section-bottom-mobile-1.svg");
+    }
+}
+/* end grow */
+/* start flow */
+@media (max-width: 767px) {
+    .flow .container {
+        flex-direction: column;
+    }
+}
+.flow .txt-flowing h2 {
+    color: var(--Very-Dark-Cyan);
+}
+.flow .txt-flowing p {
+    max-width: 470px;
+    width: 100%;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif!important;
+    color: var(--Very-Dark-Cyan);
+}
+.flow img {
+    width: 500px;
+}
+@media (max-width: 767px) {
+    .flow img {
+        width: 250px;
+        margin-bottom: 0px;
+    }
+}
+/* end flow */
+/* start user */
+.svg-2 {
+    width: 100%;
+    height: 200px;
+    background-image: url("../images/bg-section-top-desktop-2.svg");
+    background-repeat: no-repeat;
+}
+@media (max-width: 767px) {
+    .svg-2 {
+        width: 100%;
+        height: 128px;
+        background-image: url("../images/bg-section-top-mobile-2.svg");
+    }
+}
+.user {
+    background-color: var(--Very-Pale-Blue);
+    margin-top: -4%;
+}
+@media (max-width: 767px) {
+    .user {
+        margin-top: -7%;
+    } 
+}
+@media (max-width: 767px) {
+    .user .container {
+        flex-direction: column-reverse;
+    }
+}
+.user .txt-user h2 {
+    color: var(--Very-Dark-Cyan);
+}
+.user .txt-user p {
+    max-width: 470px;
+    width: 100%;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif!important;
+    color: var(--Very-Dark-Cyan);
+}
+.user img {
+    width: 500px;
+}
+@media (max-width: 767px) {
+    .user img {
+        width: 250px;
+        margin-bottom: 50px;
+    }
+}
+.svg-bottom-2 {
+    width: 100%;
+    height: 200px;
+    background-image: url("../images/bg-section-bottom-desktop-2.svg");
+    background-repeat: no-repeat;
+}
+@media (max-width: 767px) {
+    .svg-bottom-2 {
+        background-image: url("../images/bg-section-bottom-mobile-2.svg");
+    }
+}
+/* end user */
+/* start build */
+.build h1 {
+    color: var(--Very-Dark-Cyan);
+    font-weight: bold;
+}
+.build .get-started {
+    padding: 17px 0;
+    max-width: 300px;
+    width: 100%;
+    background-color: var(--color-Pink);
+    color: #fff;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif!important;
+    font-weight: 600;
+    text-align: center;
+    box-shadow: 0 4px 12px hsl(192deg 100% 9% / 30%);
+    margin: auto;
+}
+/* end build */
+/* start footer */
+.svg-footer {
+    width: 100%;
+    height: 200px;
+    background-image: url("../images/bg-footer-top-desktop.svg");
+    background-repeat: no-repeat;
+}
+@media (max-width: 767px) {
+    .svg-footer {
+        background-image: url("../images/bg-footer-top-mobile.svg");
+    }
+}
+footer {
+    margin-top: calc(-3% + -11px);
+    background-color: var(--Very-Dark-Cyan);
+}
+@media (max-width: 767px) {
+    footer {
+        margin-top: -45%;
+    }
+}
+@media (max-width: 767px) {
+    footer .container {
+        flex-direction: column-reverse;
+    }
+}
+footer .txt-huddle .phone img ,
+footer .txt-huddle .mail img {
+    width: 15px;
+    margin-right: 10px;
+}
+
+footer .txt-huddle .phone span ,
+footer .txt-huddle .mail span {
+    font-family: "Open Sans", sans-serif!important;
+    font-size: 13px;
+}
+.huddle-social i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+footer .txt-huddle p ,
+footer .newsletter p {
+    width: 300px;
+    font-family: "Open Sans", sans-serif!important;
+    font-size: 13px;
+    line-height: 1.7;
+    font-weight: 600;
+}
+@media (max-width: 767px) {
+    footer .newsletter {
+        margin-bottom: 3rem;
+    }
+}
+footer .newsletter .headletter {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-family: "Open Sans", sans-serif!important;
+
+}
+footer .newsletter p {
+    width: 330px;
+    margin-bottom: 30px;
+}
+footer .newsletter .flex-letter {
+    column-gap: 25px;
+    width: fit-content;
+}
+@media (max-width: 767px) {
+    footer .newsletter .flex-letter {
+        flex-direction: column;
+        align-items: flex-end!important;
+    }
+}
+footer .newsletter .flex-letter input {
+    border: none;
+    outline: none;
+    flex: 2;
+    padding: 8px;
+    border-radius: 7px;
+}
+@media (max-width: 767px) {
+    footer .newsletter .flex-letter input {
+        width: 300px;
+        margin-bottom: 14px;
+    }
+}
+footer .newsletter .flex-letter .subscribe {
+    font-family: "Open Sans", sans-serif !important;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 600;
+    background-color: hsl(322deg 68.67% 52.73%);
+    color: #fff;
+}
+@media (max-width: 767px) {
+    footer .newsletter .flex-letter .subscribe {
+
+    }
+}
