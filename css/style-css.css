@@ -40,16 +40,17 @@ header span {
         font-size: 14px;
     }
 }
-section h1 {
+/* start nav */
+nav h1 {
     color: var(--Very-Dark-Cyan);
     font-weight: bold;
 }
 @media (max-width: 767px) {
-    section h1 {
+    nav h1 {
         font-size: 28px;
     }
 }
-section p {
+nav p {
     color: var(--Very-Dark-Cyan);
     font-family: "Open Sans", sans-serif!important;
     max-width: 500px;
@@ -58,12 +59,12 @@ section p {
     font-weight: 400;
 }
 @media (max-width: 767px) {
-    section p {
+    nav p {
         max-width: 300px;
         font-size: 13px;
     }
 }
-section .get-started {
+nav .get-started {
     padding: 17px 0;
     max-width: 300px;
     width: 100%;
@@ -76,10 +77,12 @@ section .get-started {
     margin: auto;
 }
 @media (max-width: 767px) {
-    section .get-started {
+    nav .get-started {
         width: 300px;
     }
 }
+/* end nav */
+
 /* start community */
 @media (max-width: 767px) {
     .community .container {
@@ -113,14 +116,14 @@ section .get-started {
 .svg {
     width: 100%;
     height: 200px;
-    background-image: url("../images/bg-section-top-desktop-1.svg");
+    background-image: url("../images/bg-nav-top-desktop-1.svg");
     background-repeat: no-repeat;
 }
 @media (max-width: 767px) {
     .svg {
         width: 100%;
         height: 135px;
-        background-image: url("../images/bg-section-top-mobile-1.svg");
+        background-image: url("../images/bg-nav-top-mobile-1.svg");
     }
 }
 .grow {
@@ -160,12 +163,12 @@ section .get-started {
 .svg-bottom {
     width: 100%;
     height: 200px;
-    background-image: url("../images/bg-section-bottom-desktop-1.svg");
+    background-image: url("../images/bg-nav-bottom-desktop-1.svg");
     background-repeat: no-repeat;
 }
 @media (max-width: 767px) {
     .svg-bottom {
-        background-image: url("../images/bg-section-bottom-mobile-1.svg");
+        background-image: url("../images/bg-nav-bottom-mobile-1.svg");
     }
 }
 /* end grow */
@@ -200,14 +203,14 @@ section .get-started {
 .svg-2 {
     width: 100%;
     height: 200px;
-    background-image: url("../images/bg-section-top-desktop-2.svg");
+    background-image: url("../images/bg-nav-top-desktop-2.svg");
     background-repeat: no-repeat;
 }
 @media (max-width: 767px) {
     .svg-2 {
         width: 100%;
         height: 128px;
-        background-image: url("../images/bg-section-top-mobile-2.svg");
+        background-image: url("../images/bg-nav-top-mobile-2.svg");
     }
 }
 .user {
@@ -247,12 +250,12 @@ section .get-started {
 .svg-bottom-2 {
     width: 100%;
     height: 200px;
-    background-image: url("../images/bg-section-bottom-desktop-2.svg");
+    background-image: url("../images/bg-nav-bottom-desktop-2.svg");
     background-repeat: no-repeat;
 }
 @media (max-width: 767px) {
     .svg-bottom-2 {
-        background-image: url("../images/bg-section-bottom-mobile-2.svg");
+        background-image: url("../images/bg-nav-bottom-mobile-2.svg");
     }
 }
 /* end user */
