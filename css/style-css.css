@@ -16,18 +16,18 @@ body {
 a {
     text-decoration: none!important;
 }
-main {
+header {
     margin-bottom: 50px;
 }
-main img {
+header img {
     width: 170px;
 }
 @media (max-width: 767px) {
-    main img {
+    header img {
         width: 130px;
     }
 }
-main span {
+header span {
     padding: 5px 20px;
     border: 1px solid var(--color-Pink);
     color: var(--color-Pink);
@@ -36,7 +36,7 @@ main span {
     font-family: "Open Sans", sans-serif!important;
 }
 @media (max-width: 767px) {
-    main span {
+    header span {
         font-size: 14px;
     }
 }
