@@ -40,16 +40,16 @@ header span {
         font-size: 14px;
     }
 }
-.section h1 {
+section h1 {
     color: var(--Very-Dark-Cyan);
     font-weight: bold;
 }
 @media (max-width: 767px) {
-    .section h1 {
+    section h1 {
         font-size: 28px;
     }
 }
-.section p {
+section p {
     color: var(--Very-Dark-Cyan);
     font-family: "Open Sans", sans-serif!important;
     max-width: 500px;
@@ -58,12 +58,12 @@ header span {
     font-weight: 400;
 }
 @media (max-width: 767px) {
-    .section p {
+    section p {
         max-width: 300px;
         font-size: 13px;
     }
 }
-.section .get-started {
+section .get-started {
     padding: 17px 0;
     max-width: 300px;
     width: 100%;
@@ -76,7 +76,7 @@ header span {
     margin: auto;
 }
 @media (max-width: 767px) {
-    .section .get-started {
+    section .get-started {
         width: 300px;
     }
 }
